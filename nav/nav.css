@@ -65,21 +65,22 @@ body{
     transition: all .35s;
     overflow: hidden;
     width: 450px;
-    opacity: 0;
     transform: scaleY(0);
+    opacity: 0;
 }
 .dropdown-content a{
     display: block;
     width: 100%;
+    height: 100%;
     margin: 15px 20px;
     color: rgba(0, 0, 0, .7) ;
 }
 .dropdown-content a:hover, .dropdown-content a.active, ul a:hover {
     color: rgba(0,0,0,1);
 }
-.dropdown:hover .dropdown-content {
-    opacity: 1;
+li:hover .dropdown .dropdown-content, .dropdown-content:hover {
     transform: scaleY(1);
+    opacity: 1;
 }
 .dropdown-button{
 color: rgba(0, 0, 0, .7);
@@ -107,6 +108,7 @@ color: rgba(0, 0, 0, .7);
     justify-content: flex-end;
     padding: 20px;
     z-index: 5;
+    display: none;
 }
 .change-icon {
   display: none;
@@ -139,6 +141,9 @@ color: rgba(0, 0, 0, .7);
     }
     #horisontal-nav{
         display: none;
+    }
+    #change-container{
+        display: flex;
     }
 }
 #vertical-nav{

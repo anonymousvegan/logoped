@@ -261,3 +261,6 @@ bottom: 0px;
         height: 300px;
     }
 }
+.link:visited{
+    color: blue;
+}
