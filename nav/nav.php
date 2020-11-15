@@ -1,12 +1,12 @@
 <nav id="horisontal-nav">
     <ul class="nav-links">
-        <li class="active">
-            <a href="#">ПОЧЕТНА</a>
+        <li class="nav-link">
+            <a href="index.php">ПОЧЕТНА</a>
         </li>
-        <li>
-            <a href="#">БИО</a>
+        <li class="nav-link">
+            <a href="био.php">БИО</a>
         </li>
-        <li>
+        <li class="nav-link">
             <div class="dropdown">
                 <div class="dropdown-button">
                     <a href="#">&#9660;УСЛУГИ</a>
@@ -16,11 +16,11 @@
                     <a>ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА</a>
                     <a>ТЕРАПЕВТСКА ИНТЕРВЕНЦИЈА</a>
                     <a>ТРЕНИНГ НА СЕМЕЈСТВОТО И НА CAREGIVER-ОТ</a>
-                    <a>ТИМСКИ ПРИСТАП БО РАБОТАТА<a>
+                    <a>ТИМСКИ ПРИСТАП БО РАБОТАТА</a>
                 </div>
             </div>
         </li>
-        <li>
+        <li class="nav-link">
         <div class="dropdown">
                 <div class="dropdown-button">
                     <a href="#">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
@@ -31,13 +31,13 @@
                 </div>
             </div>
         </li>
-        <li>
+        <li clas="nav-link">
             <a href="#">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
         </li>
-        <li>
+        <li class="nav-link">
             <a href="#" id="more">КОНТАКТИ</a>
         </li>
-        <li>
+        <li class="nav-link">
             <a href="#" id="more">Blog</a>
         </li>
     </ul>
@@ -51,13 +51,13 @@
 </div>
 <div  id="vertical-nav">
 <ul class="nav-links">
-        <li class="active">
-            <a href="#">ПОЧЕТНА</a>
+        <li class="nav-link">
+            <a href="index.php">ПОЧЕТНА</a>
         </li>
-        <li>
-            <a href="#">БИО</a>
+        <li class="nav-link">
+            <a href="био.php">БИО</a>
         </li>
-        <li>
+        <li class="nav-link">
             <div class="dropdown">
                 <div class="dropdown-button">
                     <a href="#">&#9660;УСЛУГИ</a>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </li>
-        <li>
+        <li class="nav-link">
         <div class="dropdown"> 
                 <div class="dropdown-button">
                     <a href="#">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
@@ -82,13 +82,13 @@
                 </div>
             </div>
         </li>
-        <li>
+        <li class="nav-link">
             <a href="#">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
         </li>
-        <li>
+        <li class="nav-link">
             <a href="#" id="more">КОНТАКТИ</a>
         </li>
-        <li>
+        <li class="nav-link">
             <a href="#" id="more">Blog</a>
         </li>
     </ul>

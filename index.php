@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ПОЧЕТНА|logopedijaiOT</title>
-        <script src="script.js" defer></script>
+        <script src="script/slider.js" defer></script>
+        <script src="script/nav.js" defer></script>
+        <script src="script/set-active.js" defer></script>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="nav/nav.css" />
         <link rel="stylesheet" href="footer/footer.css">
         <link rel="icon" href="files/logo.png" />
     </head>
-    <body>
+    <body onload="setActive(0)">
         <?php 
             include "nav/nav.php"
         ?>
@@ -68,5 +70,8 @@
     <p>Повеќе инфо – <a class="link" href="#">ТЕРАПЕВТСКИ ИНТЕРВЕНЦИИ</a>
 </div>
 <?php include "footer/footer.php"; ?>
+<script defer>
+    setActive(1);
+</script>
 </body>
 </html>
