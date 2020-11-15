@@ -1,0 +1,44 @@
+#sio-text{
+    display: block;
+    width: 100%;
+    padding: 50px 10%;
+}
+#sio-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+    margin-top: 20px;
+}
+#sio-text h2{
+    margin-top: 20px;
+    color: #888;
+    display: inline;
+}
+#sio-text img{
+    margin-right: 20px;
+    float: left;
+}
+.link:visited, .link{
+    transition: all .4s;
+    color: #888;
+    font-size: 110%;
+}
+.link:hover{
+    color: blue;
+}
+@media screen and (max-width:1000px){
+    #sio-text{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width:800px){
+    #sio-text img{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

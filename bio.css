@@ -41,6 +41,11 @@
         margin-bottom: 20px;
     }
 }
-.link:visited{
+.link:visited, .link{
+    transition: all .4s;
+    color: #888;
+    font-size: 110%;
+}
+.link:hover{
     color: blue;
 }
