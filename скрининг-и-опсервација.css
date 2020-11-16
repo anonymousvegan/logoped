@@ -1,7 +1,7 @@
 #sio-text{
     display: block;
     width: 100%;
-    padding: 50px 10%;
+    padding: 70px 10%;
 }
 #sio-text p{
     margin-top: 20px;
@@ -13,6 +13,7 @@
     margin-top: 20px;
 }
 #sio-text h2{
+    font-size: 25px;
     margin-top: 20px;
     color: #888;
     display: inline;

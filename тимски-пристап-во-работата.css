@@ -1,0 +1,41 @@
+#team-text{
+    display: block;
+    width: 100%;
+    padding: 50px 10%;
+}
+#team-text img{
+    float: none;
+    width: 100%;
+}
+#team-text p{
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+}
+#team-text h2{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+}
+#bottom-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.link:visited, .link{
+    transition: all .5s;
+    font-size: 24px;
+    color: #888;
+}
+@media screen and (max-width:800px){
+    #team-text{
+        display: block;
+        width: 100%;
+        padding: 50px 20px;
+    }
+}

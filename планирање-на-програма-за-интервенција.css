@@ -1,0 +1,59 @@
+#pnpzi-text{
+    display: block;
+    width: 100%;
+    padding: 70px 10%;
+}
+#pnpzi-text p, #pnpzi-text dd, #pnpzi-text dt {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+}
+/*dl{
+    clear: both;
+}
+*/
+#pnpzi-text dt{
+    margin: 0;
+    font-size: 115%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*
+dd{
+    padding-left: 20px;
+}
+*/
+#pnpzi-text img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: auto;
+    min-width: 500px;
+}
+.link:visited, .link{
+    transition: all .4s;
+    color: #888;
+    font-size: 110%;
+}
+.link:hover{
+    color: blue;
+}
+@media screen and (max-width:1000px){
+    #pnpzi-text{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #pnpzi-text img{
+        min-width: unset;
+    }
+}
+@media screen and (max-width:800px){
+    #pnpzi-text img{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

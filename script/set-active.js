@@ -12,4 +12,7 @@ function setDropActive(a){
     document.getElementById("horisontal-nav")
     .querySelectorAll(".nav-link")[number]
     .querySelectorAll("a")[a].classList.add("active");
+    document.getElementById("vertical-nav")
+    .querySelectorAll(".nav-link")[number]
+    .querySelectorAll("a")[a].classList.add("active");
 }
