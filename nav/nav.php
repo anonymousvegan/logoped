@@ -23,7 +23,7 @@
         <li class="nav-link">
         <div class="dropdown">
                 <div class="dropdown-button">
-                    <a href="#">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
+                    <a href="окупациона-терапија.php">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
                 </div>
                 <div class="dropdown-content">
                     <a>ИНТЕРВЕНЦИИ</a>
@@ -60,7 +60,7 @@
         <li class="nav-link">
             <div class="dropdown">
                 <div class="dropdown-button">
-                    <a href="услуги.php">&#9660;УСЛУГИ</a>
+                    <a href="#">&#9660;УСЛУГИ</a>
                 </div>
                 <div class="dropdown-content">
                     <a href="скрининг-и-опсервација.php"> СКРИНИНГ И ОПСЕРВАЦИЈА</a>

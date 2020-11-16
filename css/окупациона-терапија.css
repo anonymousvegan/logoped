@@ -1,0 +1,86 @@
+#ot-text{
+    display: block;
+    width: 100%;
+    padding: 50px 10%;
+}
+#ot-text img{
+    float: right;
+    margin-left: 25px;
+    min-width: 300px;
+}
+#ot-text p, #ot-text ul, #ot-text li {
+    margin: 25px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+    margin-top: 20px;
+}
+#ot-text li{
+    font-size: 80%;
+    display: list-item;
+}
+#ot-text h1{
+    margin: 25px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #888;
+    margin-top: 20px;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 25px ;
+    color: white;
+    border: 1px solid transparent;
+    border-color: #007bff;
+    background-color: #007bff;
+    transition: all .5s;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button:hover{
+    background-color: #0062cc;
+}
+
+@media screen and (max-width:800px){
+    #ot-text{
+        padding: 50px 20px; 
+    }
+    #ot-text img{
+        min-width: unset;
+    }
+}
+@media screen and (max-width:600px){
+    #ot-text img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #ot-text p{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+    }
+    .button{
+        width: auto;
+        margin: 10px;
+    }
+    #ot-text li, #ot-text ul{
+        margin: 0;
+    }
+}
