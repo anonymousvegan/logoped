@@ -7,7 +7,7 @@
         <script src="script/slider.js" defer></script>
         <script src="script/nav.js" defer></script>
         <script src="script/set-active.js" defer></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="nav/nav.css" />
         <link rel="stylesheet" href="footer/footer.css">
         <link rel="icon" href="files/logo.png" />

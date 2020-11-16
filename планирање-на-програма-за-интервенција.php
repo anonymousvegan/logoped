@@ -6,7 +6,7 @@
     <title>ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА|logopedijaiOT</title>
     <script src="script/nav.js" defer></script>
     <script src="script/set-active.js" defer></script>
-    <link rel="stylesheet" href="планирање-на-програма-за-интервенција.css" />
+    <link rel="stylesheet" href="css/планирање-на-програма-за-интервенција.css" />
     <link rel="stylesheet" href="nav/nav.css" />
     <link rel="stylesheet" href="footer/footer.css">
     <link rel="icon" href="files/logo.png" />

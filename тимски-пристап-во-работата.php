@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА|logopedijaiOT</title>
+    <title>ТИМСКИ ПРИСТАП ВО РАБОТАТА | logopedijaiOT</title>
     <script src="script/nav.js" defer></script>
     <script src="script/set-active.js" defer></script>
-    <link rel="stylesheet" href="тимски-пристап-во-работата.css" />
+    <link rel="stylesheet" href="css/тимски-пристап-во-работата.css" />
     <link rel="stylesheet" href="nav/nav.css" />
     <link rel="stylesheet" href="footer/footer.css">
     <link rel="icon" href="files/logo.png" />
