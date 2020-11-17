@@ -1,32 +1,31 @@
-#ot-text{
+#otc-text{
     display: block;
     width: 100%;
     padding: 50px 10%;
 }
-#ot-text img{
+#otc-text img{
     float: right;
     margin-left: 25px;
-    min-width: 300px;
+    margin-bottom: 50px;
 }
-#ot-text p, #ot-text ul, #ot-text li {
+#otc-text p {
     margin: 25px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     color: #888;
-    margin-top: 20px;
+    margin-top: 0px;
+    line-height: 150%;
 }
-#ot-text li{
-    font-size: 80%;
-    display: list-item;
-}
-#ot-text h1{
+#otc-text h1 {
     margin: 25px;
-    font-size: 24px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    color: #888;
-    margin-top: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 150%;
 }
 #buttons{
     display: flex;
@@ -34,7 +33,7 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .button{
     display: flex;
@@ -55,6 +54,35 @@
 .button:hover{
     background-color: #0062cc;
 }
+@media screen and (max-width:800px){
+    #otc-text{
+        padding: 50px 20px; 
+    }
+    #otc-text img{
+        max-width: 270px;
+    }
+}
+@media screen and (max-width:600px){
+    #otc-text img{
+        max-width: unset;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    #otc-text p{
+        padding: 0;
+        margin: 0;
+    }
+    #buttons{
+        margin-top: 0;
+    }
+    .button{
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+}
 .button a{
     color: inherit;
     text-decoration: none;
@@ -65,41 +93,4 @@
     justify-content: inherit;
     align-items: inherit;
     user-select: none;
-}
-@media screen and (max-width:800px){
-    #ot-text{
-        padding: 50px 20px; 
-    }
-    #ot-text img{
-        min-width: unset;
-    }
-}
-@media screen and (max-width:600px){
-    #ot-text img {
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    #ot-text p{
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        font-size: 16px;
-    }
-    #ot-text h1{
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        text-align: left;
-    }
-    .button{
-        width: auto;
-        margin: 5px;
-        padding: 10px;
-    }
-    #ot-text li, #ot-text ul{
-        margin: 0;
-    }
 }
