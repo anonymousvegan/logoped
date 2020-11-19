@@ -47,7 +47,7 @@
         </div>
     </div>
     </div>
-    <div id="contact"><div><a href="#"><img src="files/phone.png">Контактирај ме!</a></div></div>
+    <div id="contact"><div><a href="контакти"><img src="files/phone.png">Контактирај ме!</a></div></div>
     <?php include "footer/footer.php"?>
 </body>
 </html>

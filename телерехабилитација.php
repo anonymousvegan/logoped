@@ -38,7 +38,7 @@
             рехабилитација.
         </p>
 </div>
-<div id="bottom-text"> <a class="link" href="#" >ЗАКАЖИ ЈА ТВОЈАТА ТЕЛЕПРАКТИЧНА СЕСИЈА</a></div>
+<div id="bottom-text"> <a class="link" href="контакти" >ЗАКАЖИ ЈА ТВОЈАТА ТЕЛЕПРАКТИЧНА СЕСИЈА</a></div>
     <?php include "footer/footer.php"?>
 </body>
 </html>

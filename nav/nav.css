@@ -66,6 +66,7 @@ body{
     overflow: hidden;
     width: 450px;
     transform: scaleY(0);
+    transform-origin: top;
     opacity: 0;
 }
 .dropdown-content a{

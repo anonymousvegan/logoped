@@ -30,7 +30,7 @@
         останати.
     </p>
 </div>
-<div id="bottom-text"> <a class="link" href="#" >​Контактирај ме!</a></div>
+<div id="bottom-text"> <a class="link" href="контакти" >​Контактирај ме!</a></div>
     <?php include "footer/footer.php"?>
 </body>
 </html>

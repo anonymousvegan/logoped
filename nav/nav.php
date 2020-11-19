@@ -1,44 +1,44 @@
 <nav id="horisontal-nav">
     <ul class="nav-links">
         <li class="nav-link">
-            <a href="index.php">ПОЧЕТНА</a>
+            <a href="<?php echo $location;?>index.php">ПОЧЕТНА</a>
         </li>
         <li class="nav-link">
-            <a href="био.php">БИО</a>
+            <a href="<?php echo $location;?>био.php">БИО</a>
         </li>
         <li class="nav-link">
             <div class="dropdown">
                 <div class="dropdown-button">
-                    <a href="услуги.php">&#9660;УСЛУГИ</a>
+                    <a href="<?php echo $location;?>услуги.php">&#9660;УСЛУГИ</a>
                 </div>
                 <div class="dropdown-content">
-                    <a href="скрининг-и-опсервација.php">СКРИНИНГ И ОПСЕРВАЦИЈА</a>
-                    <a href="планирање-на-програма-за-интервенција.php">ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА</a>
-                    <a href="терапевтска-интервенција.php">ТЕРАПЕВТСКА ИНТЕРВЕНЦИЈА</a>
-                    <a href="тренинг-на-семејството-и-наcaregive.php">ТРЕНИНГ НА СЕМЕЈСТВОТО И НА CAREGIVER-ОТ</a>
-                    <a href="тимски-пристап-во-работата.php">ТИМСКИ ПРИСТАП БО РАБОТАТА</a>
+                    <a href="<?php echo $location;?>скрининг-и-опсервација.php">СКРИНИНГ И ОПСЕРВАЦИЈА</a>
+                    <a href="<?php echo $location;?>планирање-на-програма-за-интервенција.php">ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА</a>
+                    <a href="<?php echo $location;?>терапевтска-интервенција.php">ТЕРАПЕВТСКА ИНТЕРВЕНЦИЈА</a>
+                    <a href="<?php echo $location;?>тренинг-на-семејството-и-наcaregive.php">ТРЕНИНГ НА СЕМЕЈСТВОТО И НА CAREGIVER-ОТ</a>
+                    <a href="<?php echo $location;?>тимски-пристап-во-работата.php">ТИМСКИ ПРИСТАП БО РАБОТАТА</a>
                 </div>
             </div>
         </li>
         <li class="nav-link">
         <div class="dropdown">
                 <div class="dropdown-button">
-                    <a href="окупациона-терапија.php">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
+                    <a href="<?php echo $location;?>окупациона-терапија.php">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
                 </div>
                 <div class="dropdown-content">
                     <a>ИНТЕРВЕНЦИИ</a>
-                    <a href="от-член-на-мултидисциплинарен-тим.php">ОТ - ЧЛЕН НА МУЛТИДИСЦИПЛИНАРЕН ТИМ</a>
+                    <a href="<?php echo $location;?>от-член-на-мултидисциплинарен-тим.php">ОТ - ЧЛЕН НА МУЛТИДИСЦИПЛИНАРЕН ТИМ</a>
                 </div>
             </div>
         </li>
         <li class="nav-link">
-            <a href="телерехабилитација.php">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
+            <a href="<?php echo $location;?>телерехабилитација.php">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
         </li>
         <li class="nav-link">
-            <a href="#" id="more">КОНТАКТИ</a>
+            <a href="<?php echo $location;?>контакти/index.php" >КОНТАКТИ</a>
         </li>
         <li class="nav-link">
-            <a href="#" id="more">Blog</a>
+            <a href="#">Blog</a>
         </li>
     </ul>
 </nav>
@@ -52,10 +52,10 @@
 <div  id="vertical-nav">
 <ul class="nav-links">
         <li class="nav-link">
-            <a href="index.php">ПОЧЕТНА</a>
+            <a href="<?php echo $location;?>index.php">ПОЧЕТНА</a>
         </li>
         <li class="nav-link">
-            <a href="био.php">БИО</a>
+            <a href="<?php echo $location;?>био.php">БИО</a>
         </li>
         <li class="nav-link">
             <div class="dropdown">
@@ -63,11 +63,11 @@
                     <a href="#">&#9660;УСЛУГИ</a>
                 </div>
                 <div class="dropdown-content">
-                    <a href="скрининг-и-опсервација.php"> СКРИНИНГ И ОПСЕРВАЦИЈА</a>
-                    <a href="планирање-на-програма-за-интервенција.php"> ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА</a>
-                    <a href="терапевтска-интервенција.php"> ТЕРАПЕВТСКА ИНТЕРВЕНЦИЈА</a>
-                    <a href="тренинг-на-семејството-и-наcaregive.php"> ТРЕНИНГ НА СЕМЕЈСТВОТО И НА CAREGIVER-ОТ</a>
-                    <a href="тимски-пристап-во-работата.php"> ТИМСКИ ПРИСТАП BО РАБОТАТА</a>
+                    <a href="<?php echo $location;?>скрининг-и-опсервација.php"> СКРИНИНГ И ОПСЕРВАЦИЈА</a>
+                    <a href="<?php echo $location;?>планирање-на-програма-за-интервенција.php"> ПЛАНИРАЊЕ НА ПРОГРАМА НА ИНТЕРВЕНЦИЈА</a>
+                    <a href="<?php echo $location;?>терапевтска-интервенција.php"> ТЕРАПЕВТСКА ИНТЕРВЕНЦИЈА</a>
+                    <a href="<?php echo $location;?>тренинг-на-семејството-и-наcaregive.php"> ТРЕНИНГ НА СЕМЕЈСТВОТО И НА CAREGIVER-ОТ</a>
+                    <a href="<?php echo $location;?>тимски-пристап-во-работата.php"> ТИМСКИ ПРИСТАП BО РАБОТАТА</a>
                 </div>
             </div>
         </li>
@@ -77,16 +77,16 @@
                     <a href="#">&#9660;ОКУПАЦИОНА ТЕРАПИЈА</a>
                 </div>
                 <div class="dropdown-content">
-                    <a> ИНТЕРВЕНЦИИ</a>
-                    <a href="от-член-на-мултидисциплинарен-тим.php"> ОТ - ЧЛЕН НА МУЛТИДИСЦИПЛИНАРЕН ТИМ</a>
+                    <a href="#"> ИНТЕРВЕНЦИИ</a>
+                    <a href="<?php echo $location;?>от-член-на-мултидисциплинарен-тим.php"> ОТ - ЧЛЕН НА МУЛТИДИСЦИПЛИНАРЕН ТИМ</a>
                 </div>
             </div>
         </li>
         <li class="nav-link">
-            <a href="телерехабилитација.php">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
+            <a href="<?php echo $location;?>телерехабилитација.php">ТЕЛЕРЕХАБИЛИТАЦИЈА</a>
         </li>
         <li class="nav-link">
-            <a href="#" id="more">КОНТАКТИ</a>
+            <a  href="<?php echo $location;?>контакти/index.php">КОНТАКТИ</a>
         </li>
         <li class="nav-link">
             <a href="#" id="more">Blog</a>
