@@ -1,10 +1,8 @@
-var redni_broj_slajda, slajdovi, tacke, tekst;
+var redni_broj_slajda, slajdovi, tacke;
 function pripremi_slajdove(){
     redni_broj_slajda=0; //prvi slajd
     slajdovi=document.getElementsByClassName("slajd"); //svi slajdovi
     slajdovi[redni_broj_slajda].style.opacity=1; //prikazuje prvi slajd
-    tekst=document.getElementById("tekst"); //uzima tekst iz okvira
-    tekst.innerText=slajdovi[redni_broj_slajda].querySelector(".tekst-slajda").innerText; //ubacuje tekst za trenutni slajd.
     /* podešavanje tački */
     tacke=[];  // tačke su niz
     var kontejner_za_tacke=document.getElementById("kontejner-za-tacke"); //kontjener za tačke
@@ -34,18 +32,15 @@ function promeni_slajd(n, restart){
         za_trenutni_slajd: "",
         za_sledeci_slajd: ""
     };
-    var animacijateksta;
     if(n>redni_broj_slajda){
         if(n>=slajdovi.length){n=0}
         animacije.za_trenutni_slajd="pomeri-levo-trenutni-slajd";
         animacije.za_sledeci_slajd="pomeri-levo-sledeci-slajd";
-        animacijateksta="pomeri-tekst-ka-dole";
     }
     else if(n<redni_broj_slajda){
         if(n<0){n=slajdovi.length-1}
         animacije.za_trenutni_slajd="pomeri-desno-trenutni-slajd";
         animacije.za_sledeci_slajd="pomeri-desno-sledeci-slajd";
-        animacijateksta="pomeri-tekst-ka-gore";
     }
     if (n!=redni_broj_slajda){
         sledeci_slajd=slajdovi[n];
@@ -60,10 +55,6 @@ function promeni_slajd(n, restart){
         tacke[n].classList.add("aktivna-tacka");
         redni_broj_slajda=n;
     }
-    tekst.style.display="none";
-    tekst.className="tekst-slajda "+animacijateksta;
-    tekst.innerText=slajdovi[redni_broj_slajda].querySelector(".tekst-slajda").innerText;
-    tekst.style.display="block";
 }
 function podesitajmer(){
     t=setInterval(function () {
