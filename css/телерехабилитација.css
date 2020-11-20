@@ -39,9 +39,11 @@
         padding-left: 0;
         padding-right: 0;
         width: 100%;
+        padding-right: 10px;
     }
     #tele-text{
         padding: 50px 20px;
+        padding-left: 0;
     }
     #tele-text p{
         margin-left: 20px;

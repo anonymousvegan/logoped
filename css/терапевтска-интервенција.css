@@ -54,7 +54,6 @@ margin-left: 20px;
         float: none;
         max-width: unset;
         width: 100%;
-        padding-left:20px;
         margin: 0;
         margin-bottom: 20px;
     }
@@ -62,7 +61,11 @@ margin-left: 20px;
         display: list-item;
     }
     #ti-text{
-        padding-right: 0;
+        padding-right: 20px;
+    }
+    #ti-text p{
+        padding: 0;
+        margin: 0;
     }
 }
 .link:visited, .link{

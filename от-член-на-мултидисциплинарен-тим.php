@@ -36,7 +36,7 @@
 </div>
     </div>
     <div id="buttons">
-        <div class="button">ИНТЕРВЕНЦИИ</div>
+        <div class="button"><a href="интервенции.php">ИНТЕРВЕНЦИИ</a></div>
         <div class="button"><a href="от-член-на-мултидисциплинарен-тим.php">СТРУЧЕН ТИМ</a></div>
     </div>
     <?php include "footer/footer.php"?>
