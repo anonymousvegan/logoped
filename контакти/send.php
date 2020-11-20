@@ -4,7 +4,7 @@ if(isset($_POST["button"])){
     $email=$_POST["email"];
     $subject=$_POST["subject"];
     $poruka=$_POST["message"];
-    $to = "majjunjulavgust@gmail.com";
+    $to = "nermina1901@hotmail.it";
     $subject ='pitanje sa sajta';
     $message='<p>imate novo pitanje na  sajtu logopedijaOT</p> <br> <br>';
     $message.='<p>ime='.$ime."<p></br>";
